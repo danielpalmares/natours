@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; /* boa pratica */
+}
+
+html {
+    font-size: 62.5%; /* mesmo que 10px que é 1rem */
+}
+
+body {
+    box-sizing: border-box;
+}
