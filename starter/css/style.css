@@ -71,10 +71,25 @@ body {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 2rem; }
+
 .u-text-center {
   text-align: center; }
 
-.u-margin-bottom-8 {
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-big {
   margin-bottom: 8rem; }
 
 .btn:link, .btn:visited {
@@ -121,6 +136,26 @@ body {
   /* animation-name, animation-duration, animation-timing-function, animation-delay */
   animation-fill-mode: backwards;
   /* aplica os estilos da animação a 0 antes dela começar */ }
+
+.btn-text:link, .btn-text:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+  color: #7ed56f;
+  padding: 3px;
+  border-bottom: 1px solid #7ed56f;
+  transition: all .2s;
+  border-radius: 2px; }
+
+.btn-text:hover {
+  background-color: #7ed56f;
+  color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px); }
+
+.btn-text:active {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  transform: translateY(0); }
 
 .row {
   max-width: 114rem;
