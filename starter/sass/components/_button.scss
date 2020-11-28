@@ -31,9 +31,18 @@
         color: $gray-color;
 
         &::after {
-            background-color: $white-color;
+          background-color: $white-color;
         }
     }
+
+    &--green {
+      background-color: $primary-color;
+      color: $white-color;
+
+      &::after {
+        background-color: $primary-color;
+      }
+  }
     
     &::after {
         content: "";
