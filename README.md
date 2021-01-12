@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <a href="https://dann-forkify.netlify.app/" target="_blank">
+  <a href="https://dann-natours.netlify.app/" target="_blank">
     <img alt="Demo on Netlify" src="https://github.com/danielpalmares/omnifood/blob/master/.github/demo-on-netlify.png">
   </a>
 </p>
