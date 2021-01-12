@@ -1,8 +1,8 @@
 .story {
   width: 75%;
   margin: 0 auto;
-  box-shadow: 0 3rem 6rem rgba($black-color, .1);
-  background-color: rgba($white-color, .6);
+  box-shadow: 0 3rem 6rem rgba($black-color, 0.1);
+  background-color: rgba($white-color, 0.6);
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
@@ -25,8 +25,8 @@
   &__img {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
-    backface-visibility: hidden; 
-    transition: all .5s;
+    backface-visibility: hidden;
+    transition: all 0.5s;
   }
 
   &__text {
@@ -43,8 +43,8 @@
     font-size: 1.7rem;
     text-align: center;
     opacity: 0;
-    transition: all .5s;
-    backface-visibility: hidden; 
+    transition: all 0.5s;
+    backface-visibility: hidden;
   }
 
   &:hover &__caption {
@@ -56,5 +56,4 @@
     transform: translateX(-4rem) scale(1);
     filter: blur(3px) brightness(80%);
   }
-  
 }
