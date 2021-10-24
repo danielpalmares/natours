@@ -37,7 +37,7 @@ Final version done! ☄️
 
 ## Pre-requirements
 
-Before getting started, you'll need to have installed in your machine these tools: 
+Before getting started, you'll need to have installed in your machine these tools:
 
 - [Git](https://git-scm.com)
 - [Node.js](https://nodejs.org/en/)
@@ -62,7 +62,7 @@ $ npm run compile:sass
 # Open the index file with Live Server
 ```
 
-If you don't have the Live Server extension installed, this link is for you [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+If you don't have the Live Server extension installed, go to [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ## Tools
 
